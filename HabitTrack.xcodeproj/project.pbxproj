@@ -11,6 +11,9 @@
 		F585FCEC2AC37DAD0071FECA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585FCEB2AC37DAD0071FECA /* ContentView.swift */; };
 		F585FCEE2AC37DAF0071FECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585FCED2AC37DAF0071FECA /* Assets.xcassets */; };
 		F585FCF12AC37DAF0071FECA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585FCF02AC37DAF0071FECA /* Preview Assets.xcassets */; };
+		F585FCF82AC37DC00071FECA /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585FCF72AC37DC00071FECA /* Habit.swift */; };
+		F585FCFA2AC3801E0071FECA /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585FCF92AC3801E0071FECA /* AddHabitView.swift */; };
+		F585FCFC2AC3C5A60071FECA /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585FCFB2AC3C5A50071FECA /* HabitDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		F585FCEB2AC37DAD0071FECA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F585FCED2AC37DAF0071FECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F585FCF02AC37DAF0071FECA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F585FCF72AC37DC00071FECA /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		F585FCF92AC3801E0071FECA /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		F585FCFB2AC3C5A50071FECA /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				F585FCE92AC37DAD0071FECA /* HabitTrackApp.swift */,
 				F585FCEB2AC37DAD0071FECA /* ContentView.swift */,
+				F585FCFB2AC3C5A50071FECA /* HabitDetailView.swift */,
+				F585FCF92AC3801E0071FECA /* AddHabitView.swift */,
+				F585FCF72AC37DC00071FECA /* Habit.swift */,
 				F585FCED2AC37DAF0071FECA /* Assets.xcassets */,
 				F585FCEF2AC37DAF0071FECA /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F585FCF82AC37DC00071FECA /* Habit.swift in Sources */,
+				F585FCFC2AC3C5A60071FECA /* HabitDetailView.swift in Sources */,
+				F585FCFA2AC3801E0071FECA /* AddHabitView.swift in Sources */,
 				F585FCEC2AC37DAD0071FECA /* ContentView.swift in Sources */,
 				F585FCEA2AC37DAD0071FECA /* HabitTrackApp.swift in Sources */,
 			);
